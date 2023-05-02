@@ -1,0 +1,222 @@
+
+#mainDiv
+{
+    width: 999px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#search
+{
+font-style:unset;
+padding: 0%;
+}
+
+#tableTop
+{
+    width:100% ;
+    background-color:white;
+}
+#TableTopTd1
+{
+    width:70%;
+}
+#TableTopTd2
+{
+    width:15%;
+}
+
+#TableTopTd3
+{
+    width:15%;
+}
+
+#search2
+{
+    color: gray;
+    font-size:x-small;
+    padding:0%;
+}
+#bookieLogotop
+{
+height: 50px;;
+width: 100px;
+}
+#searchButton2
+{
+    height:30px;
+    width:60px;
+    color:white;
+    background-color: rgb(57, 57, 238);
+    border-color:  rgb(57, 57, 238);
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+       
+}
+#searchButton1
+{
+    height:30px;
+    width:50px;
+    background-color:gray;
+    background-image: image("E:\Booki\WD P2 - Booki resources EN\images\otherImages\computer-icons-location-clip-art-location-thumbnail.jpg");
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    overflow: hidden;
+}
+#SearchText
+{
+    height: 30px;
+    border-width: 0.5px;
+    border-color: rgb(194, 192, 192);
+}
+#img1
+{
+    height: 30px;
+    background: none;
+    box-sizing: border-box;
+    
+}
+#SrchResultText
+{
+color:gray;
+font-size: x-small;
+}
+
+#tableAccom
+{
+    width:100%;
+
+}
+
+#tableAccomTr
+{
+    height:300px;
+    width:100%;
+    border-radius: 15px;
+    margin: auto;
+    
+    background-color: rgb(226, 226, 226);
+}
+
+#tableAccomOuterTD
+{
+    align-content:space-evenly;
+    border-radius: 15px;
+
+    padding-top: 15px;
+    padding-bottom:15px;
+    padding-left:15px;
+}
+#tableAccomTD
+{
+    width:33%;
+    
+    margin: 30%;
+    padding: top 50px;
+    
+    padding-left:3px;
+    padding-right:2px;
+    border-radius: 15px;
+    
+    border-color: white;
+    border-width: 5px;
+    background-color: white;
+}
+
+#tablePopularTd
+{
+    align-content:space-evenly;
+    padding: top 50px;
+    padding-left:20%;
+    padding-right:20%;
+    border-radius: 15px;
+    
+}
+
+
+#tablePopularTr
+{
+    width:100%;
+    border-radius:15px;
+    margin: auto;
+    background-color:white;
+}
+
+#AccomImg
+{
+    height: 100px;
+    width:150px;
+    border-top-right-radius:15px;
+    border-top-left-radius: 15px;
+}
+
+#PopulartImg
+{
+    height: 60px;
+    width:100px;
+    border-top-right-radius:15px;
+    border-top-left-radius: 15px;
+}
+
+
+
+#table2
+{
+    height:150px;
+    width:100%;
+}
+
+#table2Img1_4
+{
+    height: 180px;
+}
+
+#table2Img2_6
+{
+    height: 70px;
+}
+
+#table2Img3_5
+{
+height:25px ;
+
+}
+
+
+#table2Row
+{
+    height:80%;
+}
+
+#div2
+{   height: 150px;
+    width:100%;
+    background-color: rgba(224, 224, 224, 0.959);
+
+
+
+}
+#tableBottom
+{
+    width:100%;
+}
+
+#tableBottomTr
+{
+    width:100%;
+}
+
+
+#tableBottomTd1
+{
+width:33%;
+}
+
+#tableBottomTd1
+{
+width:34%;
+}
+
+#tableBottomTd1
+{
+width:33%;
+}
