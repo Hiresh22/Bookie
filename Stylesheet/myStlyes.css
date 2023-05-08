@@ -59,10 +59,10 @@ navbar:hover {
 
 .srch_Div{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
    padding-left:15px; 
 }
+
 
 
 #search
@@ -187,6 +187,12 @@ font-size: x-small;
  
 }
 
+.div_txt_accom{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ padding-left:.875em;   
+}
 
 .Outer_div_accom_popular {
 display: flex;
@@ -284,6 +290,7 @@ width:100%;
 {
 display: flex;
 flex-wrap:wrap;
+flex-direction: row;
 justify-items:flex-start;
 justify-content:space-around;
 
