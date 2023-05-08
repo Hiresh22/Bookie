@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open Index1.html",
-            "file": "e:\\P2_Patel_Code\\Stylesheet\\Index1.html"
+            "file": "Index1.html"
         }
     ]
 }
