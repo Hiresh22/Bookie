@@ -120,6 +120,12 @@ border-bottom-left-radius:20px;
 
 }
 
+.div_src_txt_filter
+{
+    padding-left: .880em;
+    padding-right: 6em;
+}
+
 .srch_filter_div{
 
     height:80px;

@@ -33,6 +33,9 @@ height: fit-content;
 padding-top: .625em;
 
     }
+    .div_src_txt_filter{
+        width: 100%;
+    }
 
     .Outer_div_accom_popular{
         display: flex;
