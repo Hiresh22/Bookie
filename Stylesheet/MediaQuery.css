@@ -1,4 +1,21 @@
-@media all (max-width :768px) {
+@media screen and (max-width :650px) {
+   
+    .header_div 
+{ display:flex;
+    flex-direction: column;
+    background-color: red;
+    }
+
+    .header_div_left_logo{
+        text-align:center;
+        align-items: center;
+    }
+
+
     
-    
+    .Outer_div_accom_popular{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
 }
