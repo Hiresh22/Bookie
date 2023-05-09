@@ -24,6 +24,7 @@ flex-wrap: wrap;
     padding-top:25px;
     padding-left:15px;
     
+    
 }
 .header_div_right_navbar  {
     flex: 70%;
@@ -197,7 +198,7 @@ font-size: x-small;
 {
     height:40px;
     width:40px;
-    background-color: #a3c8ff;
+    background-color:#DEEBFF;
     border-radius: 50px;
     border-color: #a3c8ff;
     border-style: solid;
