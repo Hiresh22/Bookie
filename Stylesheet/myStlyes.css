@@ -92,7 +92,6 @@ font-style:unset;
     height:30px;
     width:50px;
     background-color:gray;
-    background-image: image("E:\P2_Patel_Code\WD P2 - Booki resources EN\images\otherImages\73-732203_location-marker-location-icon-png-grey-transparent-png.png");
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
     overflow: hidden;
@@ -124,6 +123,7 @@ border-bottom-left-radius:20px;
 {
     padding-left: .880em;
     padding-right: 6em;
+    border-color: #F2F2F2;
 }
 
 .srch_filter_div{
@@ -162,20 +162,17 @@ font-size: x-small;
 .div_src_img
 {
     display: flex;
-    justify-content: center; 
     flex-wrap:wrap;
     border-radius: 30px;
-    
     padding-right:10px;
     height:40px;
-    border-color: #a3c8ff;
+    border-color: #F2F2F2;
     border-style: solid;
-    border-width:1px;
+    border-width:2px;
     align-items: center;
-    justify-items: center;
     text-align: center;
+    margin-right: auto;
 
-    margin-right:50px;
 }
 
 .filter_button
@@ -185,12 +182,33 @@ font-size: x-small;
     
 }
 
+.div-srch_loc_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    width:40px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #F2F2F2;
+}
+
 .img_icons
 {
     height:40px;
+    width:40px;
     background-color: #a3c8ff;
     border-radius: 50px;
- 
+    border-color: #a3c8ff;
+    border-style: solid;
+    border-width:1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div_filter_inner_txt{
+    padding-left: 3px;
 }
 
 .div_txt_accom{
@@ -219,9 +237,10 @@ width:100%;
     
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content:space-around;
     background-color: #F2F2F2;
     padding: 10PX;
+   
     
 }
 
