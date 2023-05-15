@@ -1,77 +1,91 @@
 @media screen and (max-width :767px)
 {
-   
-    .header_div 
-       { display:flex;
-         flex-direction: column;
-         padding-top: .625em;
-       }
-
-       .header_div_left_logo
-{
-   width: 100%;
-   display:flex;
-   flex-direction: row;
-   justify-content: center;
-}
-    .Container1_Child_left_logo
-       {
-         text-align:center;
-        align-items: center;
-       }
-
-       .Container1_Child_right_inner_nav2
-       {
-         width: 50%;
-         text-align:center;
-        align-items: center;
-       }
-
-       .Container1_Child_right_inner_nav2
-       {
-         width: 50%;
-         text-align:center;
-        align-items: center;
-       }
-    .header_div_right_navbar  
-       {
-         width:100%;
-         display: flex;
-         flex-direction: row;
-         justify-content: space-around;
-       text-align:center;
-       }
-
-
-
-    .menu_a_link
-       {
-         padding-left:3em;
-         padding-right: 3em;
-         border-bottom-style: solid;
-         border-color: blue;
-       }  
-
-    .srch_Div
-       {
-         flex-direction: column;
-         height: auto;
-       }
-    .srch_filter_div
-       {
-         height: fit-content;
-         padding-top: .625em;
-       }
-    .div_src_txt_filter
-       {
+  
+      .header_div 
+       { 
         width: 100%;
+         flex-direction: column;
+        
+       }
+       .bookieLogotop
+         {
+          height:50px;
+          padding-bottom:0px;
+          }
+   
+       .header_div_left_logo
+           { 
+            width: 100%;
+            height: auto;
+            text-align: center;
+            align-items: center;
+           }
+        .header_div_right_navbar  
+           {
+                    width: 100%;
+                    
+          }
+
+       .Container1_Child_right_inner_nav1
+           {
+            width: 50%;
+            border-bottom: 2px solid gray;
+            border-top: none;
+           padding-bottom: 15px;
+          }
+
+       .Container1_Child_right_inner_nav2
+          {
+            width: 50%;
+           border-bottom: 2px solid gray;
+            border-top: none;
+            padding-bottom: 15px;
+          }
+
+       .Container1_Child_right_inner_nav1:hover
+          {
+            color: #0065FC;
+            border-bottom: 2px solid #0065FC;
+            border-top: none;
+          }
+       .Container1_Child_right_inner_nav2:hover
+         {
+          color: #0065FC;
+           border-bottom: 2px solid #0065FC;
+           border-top: none;
+          }
+
+          .menu_a_link :visited
+           {
+               color: #0065FC;
+                  text-decoration: none;
+                
+           }
+           .div_src_img
+           {
+            margin-bottom: 5px;
+           }
+    
+      .srch_Div
+          {
+           flex-direction: column;
+           height: auto;
+          }
+      .srch_filter_div
+         {
+            height: fit-content;
+            padding-top: .625em;
+         }
+     .div_src_txt_filter
+       {
+         width: 100%;
        }
 
-    .Outer_div_accom_popular
-       {
+     .Outer_div_accom_popular
+         {
          display: flex;
          flex-direction: column-reverse;
-       }
+         }
 
     .Inner_div_accom
        {
@@ -100,10 +114,10 @@
         width:100%;
         height: fit-content;
       }
-    .img_height_250{
+    .img_height_250
+      {
         height: auto;
-      
-    }
+       }
 
     .div_footer{
         flex-direction: column;
@@ -117,21 +131,26 @@
 }
 
 @media screen and (max-width :991px)
-{.srch_Div
+{
+   .srch_Div
     {
+      display: flex;
       flex-direction: column;
       height: auto;
     }
 
     .header_div_right_navbar  
        {
-         width:100%;
+   
          display: flex;
          flex-direction: row;
          justify-content: space-around;
        text-align:center;
        }
-
+       .div_src_img
+       {
+        margin-bottom: 5px;
+       }
  .srch_filter_div
     {
       height: fit-content;

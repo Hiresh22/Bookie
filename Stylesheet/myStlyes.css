@@ -3,13 +3,13 @@
 
 body{
     margin: 0;
+    font-style: 'Raleway';
     
-    font-weight:lighter;
 }
 .header_div {
+    width: 100%;
 display:flex;
-flex-wrap: wrap;
-
+flex-direction: row;
 }
 
 .bookieLogotop{
@@ -28,51 +28,55 @@ flex-wrap: wrap;
     
     
 }
-.header_div_right_navbar  {
+.header_div_right_navbar 
+ {
     width: 20%;
-    padding-top: 25px;
+    height: 100%;
     text-align:right;
    display:flex;
    flex-direction: row;
-
+     text-decoration: none;
     
-    text-decoration: none;
 }     
 
-    .navbar{
 
-        padding:1em;
-        border-color:white;
-        border-style: solid;
-
-}
-
-.menu_a_link{
+.menu_a_link 
+{
     text-decoration: none;
-    color: #0065FC;
+    color: gray;
 }
 
 .Container1_Child_right_inner_nav2
 {
     width: 50%;
+    display: flex;
+    justify-content: center; 
     text-align: center;
      padding-top: 25px;
+     border-top: 2px solid gray;
 }
 
 .Container1_Child_right_inner_nav1
 {
     width: 50%;
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding-top: 25px;
+    border-top: 2px solid gray;
 }
 
-navbar:hover {
+.Container1_Child_right_inner_nav1:hover
+{
+    border-top: 2px solid #0065FC;
 
     
-    border-top:5PX;
-    border-style: solid;
-    border-top-color: blue;
     
+}
+.Container1_Child_right_inner_nav2:hover
+{
+    border-top: 2px solid #0065FC;
+
 }
 
 .srch_Div{
@@ -291,16 +295,25 @@ width:100%;
     border-top-left-radius: 15px;
 }
 
+ .div_link_showmore
+   {
+    padding:10px
+   } 
 
-
-.div_popular_text {
+#link_showmore
+   { 
+    text-decoration: none;
+    color: gray;
+   }
+.div_popular_text 
+    {
     flex:35% ;
     margin:20px;
     padding-top:20px ;
     padding-left:30px;
     background-color: #F2F2F2;
- border-radius: 10px;
-}
+    border-radius: 10px;
+    }
 
 .div_popular {
     
