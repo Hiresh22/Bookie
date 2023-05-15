@@ -1,72 +1,81 @@
-@media screen and (max-width :500px) {
+@media screen and (max-width :767px)
+{
    
     .header_div 
-{ display:flex;
-    flex-direction: column;
-    padding-top: .625em;
-    }
+       { display:flex;
+         flex-direction: column;
+         padding-top: .625em;
+       }
 
-    .header_div_left_logo{
+    .header_div_left_logo
+       {
         text-align:center;
         align-items: center;
-    }
+       }
 
-    .header_div_right_navbar  {
-    text-align:center;
-    }
+    .header_div_right_navbar  
+       {
+       text-align:center;
+       }
 
 
 
-    .menu_a_link{
-        padding-left:3em;
-        padding-right: 3em;
-        border-bottom-style: solid;
-        border-color: blue;
-    }  
+    .menu_a_link
+       {
+         padding-left:3em;
+         padding-right: 3em;
+         border-bottom-style: solid;
+         border-color: blue;
+       }  
 
-    .srch_Div{
-        flex-direction: column;
-        height: auto;
-    }
-    .srch_filter_div{
-height: fit-content;
-padding-top: .625em;
-
-    }
-    .div_src_txt_filter{
+    .srch_Div
+       {
+         flex-direction: column;
+         height: auto;
+       }
+    .srch_filter_div
+       {
+         height: fit-content;
+         padding-top: .625em;
+       }
+    .div_src_txt_filter
+       {
         width: 100%;
-    }
+       }
 
-    .Outer_div_accom_popular{
-        display: flex;
-        flex-direction: column-reverse;
-    }
+    .Outer_div_accom_popular
+       {
+         display: flex;
+         flex-direction: column-reverse;
+       }
 
-    .Inner_div_accom{
-        width:100%;
-    }
+    .Inner_div_accom
+       {
+          width:100%;
+       }
 
-    .AccomImg{
-        width:100%;
-    }
+    .AccomImg
+        {
+          width:100%;
+        }
 
-    .div_activity{
-        display: flex;
-        
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: fit-content;
-
-    }
-    .div_activity_img1{
-        width:100%;
-        height:6em;
-    }
+    .div_activity
+        {
+           display: flex;
+           flex-wrap: wrap;
+           flex-direction: column;
+           height: fit-content;
+        }
+    .div_activity_img1
+       {
+         width:100%;
+         height:6em;
+        }
     .div_activity_img_2_3
-    {
+      {
         width:100%;
         height: fit-content;
-    }
+      }
     .img_height_250{
         height: auto;
       
@@ -81,7 +90,22 @@ padding-top: .625em;
         flex-direction: column;
     }
 
-   
+}
 
+@media screen and (max-width :991px)
+{.srch_Div
+    {
+      flex-direction: column;
+      height: auto;
+    }
+ .srch_filter_div
+    {
+      height: fit-content;
+      padding-top: .625em;
+    }
+ .div_src_txt_filter
+    {
+     width: 100%;
+    }
 
 }

@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open pactice.html",
-            "file": "./pactice.html"
+            "name": "Open Index1.html",
+            "file": "./Index1.html"
         }
     ]
 }
