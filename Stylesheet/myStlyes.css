@@ -21,17 +21,20 @@ flex-wrap: wrap;
 
 .header_div_left_logo{
 
-    flex:30%;
+    width:80%;
     padding-top:25px;
     padding-left:15px;
+    justify-content: flex-start;
     
     
 }
 .header_div_right_navbar  {
-    flex: 70%;
+    width: 20%;
     padding-top: 25px;
     text-align:right;
-   
+   display:flex;
+   flex-direction: row;
+
     
     text-decoration: none;
 }     
@@ -45,9 +48,22 @@ flex-wrap: wrap;
 }
 
 .menu_a_link{
-    padding-right:70px;
     text-decoration: none;
     color: #0065FC;
+}
+
+.Container1_Child_right_inner_nav2
+{
+    width: 50%;
+    text-align: center;
+     padding-top: 25px;
+}
+
+.Container1_Child_right_inner_nav1
+{
+    width: 50%;
+    text-align: center;
+    padding-top: 25px;
 }
 
 navbar:hover {
