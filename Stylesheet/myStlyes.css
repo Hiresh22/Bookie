@@ -148,17 +148,36 @@ border-bottom-left-radius:20px;
     border-color: #F2F2F2;
 }
 
-.srch_filter_div{
-
+.srch_filter_div
+  {
+    flex:100%;
     height:80px;
     display: flex;
     flex-direction: row;
     padding-top:15px;
     margin:0;
-
-    
     }
 
+    
+
+    .srch_filter_div_left_60 
+      {
+        width: 63%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content:flex-start;
+        align-items: center;
+      }
+
+    
+    .srch_filter_div_Right_40
+     {
+    
+        width:37%;
+        
+    }
+    
     .filter_link
     {
         text-decoration: none;
@@ -171,28 +190,7 @@ border-bottom-left-radius:20px;
         color: blue;
     }
 
-    .div_src_img:hover
-    {
-        background-color:#DEEBFF;
-    }
-
-    .srch_filter_div_left_60 {
-        flex: 65%;
-        display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-     align-content:flex-start;
-    align-items: center;
-    background-color: white;
-    
-    }
-
-    
-    .srch_filter_div_Right_40 {
-        flex:35%;
-    }
-    
-
+  
 .SrchResultText
 {
 color:grey;
@@ -213,6 +211,10 @@ font-size: x-small;
     text-align: center;
     margin-right: auto;
 
+}
+.div_src_img:hover
+{
+    background-color:#DEEBFF;
 }
 
 .filter_button
@@ -246,6 +248,7 @@ font-size: x-small;
         justify-content: center;
         align-items: center;
         }
+
   .div_filter_inner_txt
         {
             padding-left: 3px;
