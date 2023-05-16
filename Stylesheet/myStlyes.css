@@ -3,7 +3,8 @@
 
 body{
     margin: 0;
-    font-family:'Raleway';
+    font-family: 'Raleway', sans-serif;
+
     
 }
 .header_div {
@@ -44,6 +45,13 @@ flex-direction: row;
 {
     text-decoration: none;
     color: gray;
+}
+
+
+
+.menu_a_link:hover
+{
+    color:#0065FC;
 }
 
 .Container1_Child_right_inner_nav2
@@ -349,7 +357,7 @@ width:100%;
 #link_showmore
    { 
     text-decoration: none;
-    color: gray;
+    color:black;
    }
 .div_popular_text 
     {
