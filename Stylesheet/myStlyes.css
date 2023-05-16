@@ -298,10 +298,12 @@ width:100%;
 .div_accom {
     
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-around;
-    background-color: #F2F2F2;
-    padding: 10PX;
+    justify-content:space-evenly;
+    align-content:flex-start;
+    background-color:#F2F2F2;
+    padding-top:10px;
    
     
 }
@@ -309,17 +311,26 @@ width:100%;
 .Inner_div_accom {
     
     width:205px;
-    margin: 20px;
+    margin-bottom:20px;
     display: flex;
-    flex-direction: row;
-     background-color:white;
+    flex-direction:column;
+    background-color:white;
+    
     border-top-right-radius:15px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 
 }
+.Inner_div_accom_img
+{
+    flex:55%;
+}
 
+.Inner_div_accom_txt
+{
+flex:45%;
+}
  
 .AccomImg
 {
