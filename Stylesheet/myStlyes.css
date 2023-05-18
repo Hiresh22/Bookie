@@ -426,12 +426,11 @@ height: 400px;
 
 .div_activity_img1
 {  
-    border-radius: 10px;
-    background-color:white;
+    background-color:#F2F2F2;
     height: 370px;
-    width:24%;
-    border-color: #F2F2F2; 
-    border-style:ridge;
+    width:20%;
+    border-radius:10px;
+    padding: 1px;
 }
 
 .div_activity_img_2_3
@@ -439,12 +438,12 @@ height: 400px;
     
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-   
+    border-radius:10px;
     height:370px;
-    width:24%;
-      
+    width:20%;
+    padding: 1px;
 }
 
 .Inner_div_activity_img_2_3
@@ -452,11 +451,10 @@ height: 400px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
-       background-color:white;
-       border-color: #F2F2F2;
-    border-style:ridge;
+    background-color:#F2F2F2;
         border-radius:10px;
+        padding: 1px;
+       
 }
 
 
@@ -465,8 +463,19 @@ height: 400px;
 {
 height:320px;
 width:100%;
+padding-top:1px;
 border-top-right-radius:10px;
 border-top-left-radius: 10px;
+}
+
+.div_place_txt
+{
+    height:43px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius: 10px;
+    
+    background-color: white;
+    
 }
 
 .img_height_100
@@ -479,7 +488,7 @@ border-top-left-radius: 10px;
 
 .img_height_150
 {
-height:180px;
+height:150px;
 width:100%;
 border-top-right-radius:10px;
 border-top-left-radius: 10px;
