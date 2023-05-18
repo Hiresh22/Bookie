@@ -336,6 +336,7 @@ flex:45%;
 {
     height: 100px;
     width:200px;
+    object-fit: cover;
     border-top-right-radius:15px;
     border-top-left-radius: 15px;
 }
@@ -356,6 +357,7 @@ flex:45%;
 {  
     height:100px;
     width:100%;
+    object-fit: cover;
     border-bottom-left-radius:15px;
     border-top-left-radius: 15px;
 }
@@ -426,6 +428,8 @@ height: 400px;
 
 .div_activity_img1
 {  
+    display: flex;
+    flex-direction: column;
     background-color:#F2F2F2;
     height: 370px;
     width:20%;
@@ -463,6 +467,7 @@ height: 400px;
 {
 height:320px;
 width:100%;
+object-fit: cover;
 padding-top:1px;
 border-top-right-radius:10px;
 border-top-left-radius: 10px;
@@ -482,6 +487,7 @@ border-top-left-radius: 10px;
 {
 height:100px;
 width:100%;
+object-fit: cover;
 border-top-right-radius:10px;
 border-top-left-radius: 10px;
 }
@@ -490,6 +496,7 @@ border-top-left-radius: 10px;
 {
 height:150px;
 width:100%;
+object-fit: cover;
 border-top-right-radius:10px;
 border-top-left-radius: 10px;
 }
