@@ -291,9 +291,14 @@ width:100%;
     flex:65% ;
     margin:20px;
     padding-top:20px ;
-    padding-left:30px;
     background-color: #F2F2F2;
  border-radius: 10px;
+}
+
+.txtAccom
+{
+
+    padding-left: 25px;
 }
 .div_accom {
     
@@ -314,8 +319,11 @@ width:100%;
     margin-bottom:20px;
     display: flex;
     flex-direction:column;
+    align-content: center;
     background-color:white;
-    
+    border-color: white;
+    border-style: solid;
+    border-width:3px;
     border-top-right-radius:15px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -377,11 +385,15 @@ flex:45%;
     flex:35% ;
     margin:20px;
     padding-top:20px ;
-    padding-left:30px;
+
     background-color: #F2F2F2;
     border-radius: 10px;
     }
 
+    .txtPopular
+    {
+        padding-left: 25px;
+    }
 .div_popular {
     
     background-color: #F2F2F2;
@@ -390,7 +402,10 @@ flex:45%;
     flex-wrap: wrap;
     align-content:center;
     justify-content:space-evenly;
-         margin:20px;
+        margin-top:10px;
+         margin-bottom:25px;
+         margin-left: 25px;
+         margin-right: 25px;
         border-radius: 10px;
 }
 
