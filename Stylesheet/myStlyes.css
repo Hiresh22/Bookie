@@ -550,6 +550,12 @@ flex-direction: column;
     flex-direction: column;
     
 }
+
+.div_footer_child
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .a_heading{
 padding-bottom:20px;
 
