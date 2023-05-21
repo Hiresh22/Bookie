@@ -127,6 +127,8 @@
          .div_accom
          {
           background-color: transparent;
+          padding-left: 0px;
+          padding-right: 0px;
          }
 
     .Inner_div_accom
