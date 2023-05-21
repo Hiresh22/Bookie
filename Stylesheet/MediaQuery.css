@@ -71,6 +71,25 @@
            flex-direction: column;
            height: auto;
           }
+
+          .srch_text_div
+          {
+           border-right: 0px;
+          }
+
+          .img_icon_srch
+          {
+            visibility: visible;
+            margin-left: 0px;
+            
+          }
+          #searchButton2
+        {
+          display: none;
+          
+          
+        }
+
       .srch_filter_div
          {
             height: fit-content;
