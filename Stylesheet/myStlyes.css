@@ -170,7 +170,7 @@ border-bottom-left-radius:20px;
 .div_src_txt_filter
 {
     padding-left:5px;
-    padding-right: 6em;
+    margin-right: auto;
     border-color: #F2F2F2;
 }
 
@@ -342,11 +342,11 @@ width:100%;
 .div_accom {
     
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction:row;
+    flex-wrap:wrap;
     justify-content:space-evenly;
-    align-content:flex-start;
-    background-color:#F2F2F2;
+    align-items: flex-start;
+      background-color:#F2F2F2;
     padding-top:10px;
    
     
@@ -356,6 +356,7 @@ width:100%;
     
     width:205px;
     margin-bottom:20px;
+    
     display: flex;
     flex-direction:column;
     align-content: center;
@@ -377,6 +378,25 @@ width:100%;
 .Inner_div_accom_txt
 {
 flex:45%;
+display: flex;
+flex-direction: column;
+align-content: space-evenly;
+padding-left: 10px;
+font-size:small;
+}
+
+.txt_child_1
+{
+    margin-top: 5px;
+}
+.txt_child_2
+{
+    margin-top: 5px;
+    width:100%;
+}
+.txt_child_3
+{
+    margin-top: 5px;
 }
  
 .AccomImg
@@ -393,21 +413,25 @@ flex:45%;
 .Inner_div_popular_img
  {
     flex: 40%;
-    border-color: white;
-    border-style: solid;
-    border-width:5px;
+    max-height:120px;
     border-radius: 15px;
 
  }
  .Inner_div_popular_text
  {
     flex: 60%;
-    
+    height:120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: small;
+    padding: 10px;
+   
  }
 
 .Popular_Img
 {  
-    height:100px;
+    height:120px;
     width:100%;
     object-fit: cover;
     border-bottom-left-radius:15px;
@@ -423,6 +447,7 @@ flex:45%;
    { 
     text-decoration: none;
     color:black;
+    margin-left:25px;
    }
 .div_popular_text 
     {
@@ -450,7 +475,7 @@ flex:45%;
          margin-bottom:25px;
          margin-left: 25px;
          margin-right: 25px;
-        border-radius: 10px;
+        border-radius: 15px;
 }
 
 .Inner_div_Popular
@@ -458,9 +483,10 @@ flex:45%;
 
     display: flex;
     flex-direction:row;
-    
+    align-items:center;
     width:100%;
-    margin-bottom: 10px;
+    margin-bottom:15px;
+    border: 3px solid white;
         background-color:white;
     border-top-right-radius:15px;
     border-bottom-right-radius:15px;
