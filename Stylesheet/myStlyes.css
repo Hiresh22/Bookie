@@ -438,9 +438,8 @@ flex-wrap:wrap;
 flex-direction: row;
 justify-items:flex-start;
 justify-content:space-between;
-
-padding-left:15px;
-padding-right:15px;
+padding-left: 15px;
+padding-right: 15px;
 padding-top: 15px;
 padding-bottom: 15px;
 height: 400px;
@@ -535,7 +534,6 @@ padding: 15px;
 flex:33%;
 
 flex-direction: column;
-padding-bottom: 15px;
 
 }
 

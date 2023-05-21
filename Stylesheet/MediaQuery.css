@@ -81,17 +81,37 @@
          width: 100%;
        }
 
+      
+
      .Outer_div_accom_popular
          {
          display: flex;
          flex-direction: column-reverse;
          }
+         
+         .div_popular_text 
+         {
+           margin:0px;
+           border-radius: 0px;
+         }
+
+         .div_accom_text
+         {
+          margin:0px;
+          border-radius: 0px;
+          
+         }
+         .div_accom
+         {
+          background-color: transparent;
+         }
 
     .Inner_div_accom
        {
           width:100%;
-          margin-left:25px;
-          margin-right: 25px;
+          margin-left:20px;
+          margin-right:20px;
+          
        }
 
     .AccomImg
@@ -101,10 +121,12 @@
 
         .div_Activity_in_city
         {
-          margin-left: 25px;
+          margin-left: 20px;
+          padding-left: 0px;
+          padding-top: 15px;
         }
 
-        #link_showmore
+  #link_showmore
 {
     padding-bottom: 10px;
     margin-left:20px;
@@ -117,8 +139,10 @@
            flex-direction: column;
            height: fit-content;
            margin-bottom:10px;
-           margin-left:25px;
-          margin-right: 25px;
+           margin-left:20px;
+          margin-right: 20px;
+          padding-left:0px;
+          padding-right:0px;
         }
     .div_activity_img1
        {
@@ -162,25 +186,27 @@
 
     .div_footer{
         flex-direction: column;
+        padding: 0px;
         
     }
 
     .div_footer_about
     {
+      margin-top: 10px;
       margin-bottom: 10px;
-      margin-left: 25px;
+      margin-left: 20px;
     }
 
     .div_footer_Accom
     {
       margin-bottom: 10px;
-      margin-left: 25px;
+      margin-left: 20px;
     }
 
     .div_footer_Assistance
     {
       margin-bottom: 10px;
-      margin-left: 25px;
+      margin-left: 20px;
     }
 
     .div_footer_child
