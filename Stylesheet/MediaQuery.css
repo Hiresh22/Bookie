@@ -95,13 +95,17 @@
             height: fit-content;
             padding-top: .625em;
          }
+ 
      .div_src_txt_filter
        {
          width: 100%;
+         margin-bottom:5px;
        }
 
-      
-
+       .div_txt_accom
+       {
+        margin-bottom: 15px;
+       }
      .Outer_div_accom_popular
          {
          display: flex;

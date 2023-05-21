@@ -300,7 +300,8 @@ height:fit-content;
  flex-direction: row;
  justify-content: left;
  align-items: flex-start; 
- margin-top: 10px;
+ margin-top: 15px;
+ margin-bottom:0px;
  padding-left: 5px;
 
 }
