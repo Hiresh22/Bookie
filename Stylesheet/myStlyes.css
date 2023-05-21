@@ -559,9 +559,13 @@ border-top-left-radius: 10px;
 
 .div_place_txt
 {
-    height:43px;
+    display: flex;
+     height:43px;
+     font-size: small;
     border-bottom-right-radius:10px;
     border-bottom-left-radius: 10px;
+    padding-left: 10px;
+    align-items: center;
     
     background-color: white;
     
