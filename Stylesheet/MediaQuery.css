@@ -81,6 +81,8 @@
           {
             visibility: visible;
             margin-left: 0px;
+            position: relative;
+            right:10px;
             
           }
           #searchButton2
