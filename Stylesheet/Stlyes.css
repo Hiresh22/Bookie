@@ -132,7 +132,7 @@
 
         #SearchText
         {
-            height: 30px;
+            height:100%;
             border:0px;           
         }
         .srch_text_div
@@ -608,7 +608,25 @@
         }
         .a_heading
         {
+            color: black;
         padding-bottom:20px;
+        text-decoration: none;
+        }
+
+        .a_heading:hover
+        {
+            color: #0065FC;
+        }
+
+        .nav_footer_child
+        {
+            color: black;
+            text-decoration: none;
+        }
+        .nav_footer_child:hover
+        {
+            color: #0065FC;
+
         }
 
 
