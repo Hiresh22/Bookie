@@ -77,12 +77,16 @@
            border-right: 0px;
           }
 
+          .SearchText
+          {
+            right:5px;
+          }
           .img_icon_srch
           {
             visibility: visible;
             margin-left: 0px;
             position: relative;
-            right:10px;
+            right:15px;
             
           }
           #searchButton2
