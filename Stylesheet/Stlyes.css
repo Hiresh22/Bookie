@@ -197,9 +197,9 @@
         }
         .filter_link:hover
         {
-            font-size:medium;
+            
             font-style:initial;
-            color: blue;
+            color: #0065FC;
         }
   
         .SrchResultText
