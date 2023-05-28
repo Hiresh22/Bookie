@@ -7,6 +7,9 @@
             font-family: 'Raleway', sans-serif;
 
         }
+        
+        
+
         .header_div 
         {
             width: 100%;
@@ -279,6 +282,11 @@
             padding-left:17px;
             padding-top:5px;
         }
+        .div_Activity_in_city:hover
+        {
+            color:#0065FC
+        }
+
 
         .div_txt_accom
         {
@@ -325,7 +333,19 @@
         {
 
             padding-left: 25px;
+            
         }
+        #link_accom
+        {
+            color: black;
+            text-decoration: none;
+        }
+        #link_accom:hover
+        {
+            color: #0065FC;
+        }
+
+
         .div_accom 
         {           
             display: flex;
@@ -376,6 +396,11 @@
         .txt_child_1
         {
             margin-top: 5px;
+        }
+
+        .txt_child_1:hover
+        {
+            color: #0065FC;
         }
         .txt_child_2
         {
@@ -434,6 +459,10 @@
             color:black;
             margin-left:25px;
         }
+        #link_showmore:hover
+        {
+            color: #0065FC;
+        }
         .div_popular_text 
         {
             flex:35% ;
@@ -451,6 +480,16 @@
             padding-left: 25px;
             padding-right: 25px;
         }
+        #link_Popular
+        {
+            text-decoration: none;
+            color: black;
+        }
+        #link_Popular:hover
+        {
+            color: #0065FC;
+        }
+
        .div_popular 
         {
         
@@ -555,6 +594,22 @@
             background-color: white;
             
         }
+
+        #link_Activity
+        {
+            color:black;
+            text-decoration: none;
+        }
+
+        #link_Activity:hover
+        {
+            color: #0065FC;
+        }
+        .div_place_txt:hover
+        {
+            color: #0065FC;
+        }
+
 
         .img_height_100
         {
