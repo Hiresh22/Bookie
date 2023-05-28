@@ -124,11 +124,30 @@
            border-radius: 0px;
          }
 
+         .price_desktop
+         {
+          visibility: hidden;
+          display: none;
+         }
+
+         
+        .price_mobile
+        {
+            visibility:visible;
+            display: inline;
+            margin-left:3px ;
+            
+          }
+        .txt_child_2
+        {
+          font-weight: bold;
+        }
+
          .div_accom_text
          {
           margin:0px;
           border-radius: 0px;
-          background-color:#fafafae7;
+          background-color:#fafafad8;
           
          }
          .div_accom

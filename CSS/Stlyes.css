@@ -329,6 +329,19 @@
             border-radius: 10px;
         }
 
+        .price_desktop
+        {
+            visibility:visible;
+        display:inline;
+        
+        }
+        .price_mobile
+        {
+            visibility: hidden;
+            display: none;
+            
+        }
+
         .txtAccom
         {
 
