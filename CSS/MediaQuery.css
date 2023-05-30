@@ -102,6 +102,25 @@
             padding-top: .625em;
          }
  
+         #romantic
+         {
+          order:1;
+          position: relative;
+          right:20px;
+         }
+
+         #family_friendly
+         {
+          order: 2;
+          
+                    
+         }
+         #pet_friendly
+         {
+          padding-right: 20%;
+          order: 3;
+         }
+
      .div_src_txt_filter
        {
          width: 100%;
@@ -273,6 +292,37 @@
         flex-direction: column;
     }
 
+}
+
+@media screen and (max-width :376px)
+{
+
+  #lowcost
+  {
+    position: relative;
+    top:5px;
+
+  }
+
+  #romantic
+  {
+   
+   position: relative;
+   bottom:40px;
+   left:120px;
+  }
+
+  #family_friendly
+  {
+    position: relative;
+  
+    bottom:20px;
+               
+  }
+  #pet_friendly
+  {
+    bottom:15px;
+  }
 }
 
 @media screen and (max-width :991px)
