@@ -92,6 +92,20 @@
             flex-direction: column;
             padding-left:15px; 
         }
+        .fa-magnifying-glass
+        {
+            color:white;
+        }
+
+        .fa-solid
+        {
+            color: #0065FC;
+        }
+
+        .fa-gray-star
+        {
+            color: #dee0e3;
+        }
 
         .img_icon_srch
         {
