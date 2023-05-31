@@ -226,7 +226,6 @@
         .div_src_img
         {
             display: flex;
-            flex-wrap:wrap;
             border-radius: 50px;
             padding-right:10px;
             height:40px;
