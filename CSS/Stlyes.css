@@ -97,7 +97,12 @@
             color:white;
         }
 
-        .fa-solid
+        .fa-blue-filter-icons
+        {
+            color: #0065FC;
+        }
+
+        .fa-blue-star
         {
             color: #0065FC;
         }
